@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+#video-feed {
+    width: 80%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #000;
+}
