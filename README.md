@@ -41,7 +41,7 @@ cd Real-Time-Driver-Drowsiness-Detection
 ```sh
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-python detect_drowsiness.py
+python app.py
 ```
 
 ---
